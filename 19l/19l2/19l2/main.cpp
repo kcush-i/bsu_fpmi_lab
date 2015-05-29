@@ -11,7 +11,7 @@ int main()
 	mas = new int[18]{98, 3, 45, 6, 7, 1, 9, 15, 98, 6, 98, 86, 644, 98, 0, -9, -12, 8};
 	
 
-	unsigned int n = 18;
+	unsigned int n = 17;
 	unsigned int comp1, comp2, step, poz;
 	int * mas1;
 	mas1 = new int[n];
@@ -134,7 +134,7 @@ int main()
 
 	delete[] mas1;
 
-	for (int i = 0; i < 18; i++)
+	for (int i = 0; i < n; i++)
 		cout << mas[i] << " ";
 	delete[] mas;
 	system("pause");
